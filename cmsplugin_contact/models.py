@@ -36,7 +36,7 @@ class BaseContact(CMSPlugin):
         verbose_name=_("Thanks message"),
         help_text=_('Message displayed on successful submit'),
         default=_('Thank you for your message.'), max_length=200)
-    submit = models.CharField(_('Submit button value'),
+    submit_text = models.CharField(_('Submit button value'),
                               default=_('Submit'), max_length=30)
     
     spam_protection_method = models.SmallIntegerField(
