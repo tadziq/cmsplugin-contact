@@ -37,7 +37,7 @@ class ContactPlugin(CMSPluginBase):
 
     fieldsets = (
         (None, {
-            'fields': ('form_name', 'form_layout', 'site_email',  'submit'),
+            'fields': ('form_name', 'form_layout', 'site_email'),
         }),
         (_('Redirection'),{
            'fields': ('thanks', 'redirect_url' ),
