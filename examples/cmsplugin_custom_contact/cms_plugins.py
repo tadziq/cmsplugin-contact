@@ -26,7 +26,7 @@ class CustomContactPlugin(ContactPlugin):
     
     fieldsets = (
         (None, {
-            'fields': ('form_name', 'form_layout', 'site_email', 'submit', 'custom_label'),
+            'fields': ('form_name', 'form_layout', 'site_email', 'submit_text', 'custom_label'),
         }),
         (_('Redirection'), {
             'fields': ('thanks', 'redirect_url' ),
