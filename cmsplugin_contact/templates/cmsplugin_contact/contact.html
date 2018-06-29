@@ -54,7 +54,7 @@
 			{{ form.accept_terms }}
 		{% endif %}
 		<p>
-			<input type="submit"{% if contact.submit %} value="{{ contact.submit }}"{% endif %} />
+			<input type="submit"{% if contact.submit_text %} value="{{ contact.submit_text }}"{% endif %} />
 		</p>
 		
 		{% csrf_token %}
